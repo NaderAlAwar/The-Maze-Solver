@@ -1,0 +1,112 @@
+MPLINK 4.35, Linker
+Linker Map File - Created Tue Apr 25 21:39:55 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x000520
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x000293      
+            657 out of 1093 program addresses used, program memory utilization is 60%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    DELAY   0x00028a    program     static C:\Users\nozer\final project\main.asm
+                       ET   0x000285    program     static C:\Users\nozer\final project\main.asm
+                     LOOP   0x00028e    program     static C:\Users\nozer\final project\main.asm
+                    LOOP2   0x000293    program     static C:\Users\nozer\final project\main.asm
+            checkBotRight   0x000268    program     static C:\Users\nozer\final project\main.asm
+               choosemode   0x000077    program     static C:\Users\nozer\final project\main.asm
+              confirmmode   0x000103    program     static C:\Users\nozer\final project\main.asm
+            definitialize   0x0001c9    program     static C:\Users\nozer\final project\main.asm
+                   delay1   0x000279    program     static C:\Users\nozer\final project\main.asm
+                   finish   0x0000e1    program     static C:\Users\nozer\final project\main.asm
+                   goLeft   0x00026d    program     static C:\Users\nozer\final project\main.asm
+               indAddress   0x000274    program     static C:\Users\nozer\final project\main.asm
+               initialize   0x000018    program     static C:\Users\nozer\final project\main.asm
+                    loop1   0x00027e    program     static C:\Users\nozer\final project\main.asm
+                     main   0x000006    program     static C:\Users\nozer\final project\main.asm
+                 mainLoop   0x000252    program     static C:\Users\nozer\final project\main.asm
+                 mazeLoop   0x000240    program     static C:\Users\nozer\final project\main.asm
+             mazeLoopIter   0x00026e    program     static C:\Users\nozer\final project\main.asm
+                 mazeMode   0x00016b    program     static C:\Users\nozer\final project\main.asm
+          modeDefaultInts   0x0000c3    program     static C:\Users\nozer\final project\main.asm
+             modeMazeInts   0x0000c7    program     static C:\Users\nozer\final project\main.asm
+           modeSelectInts   0x0000be    program     static C:\Users\nozer\final project\main.asm
+       moveCursorObstacle   0x0000d0    program     static C:\Users\nozer\final project\main.asm
+               movecursor   0x000045    program     static C:\Users\nozer\final project\main.asm
+              movepointer   0x0000db    program     static C:\Users\nozer\final project\main.asm
+               newLinePos   0x0000cd    program     static C:\Users\nozer\final project\main.asm
+             obstacleMode   0x00010c    program     static C:\Users\nozer\final project\main.asm
+                   onetwo   0x0000e2    program     static C:\Users\nozer\final project\main.asm
+                pathFound   0x000267    program     static C:\Users\nozer\final project\main.asm
+            placeObstacle   0x0000d8    program     static C:\Users\nozer\final project\main.asm
+        placeObstacleMode   0x0000c8    program     static C:\Users\nozer\final project\main.asm
+                   rbints   0x0000b4    program     static C:\Users\nozer\final project\main.asm
+               resumeLoop   0x000247    program     static C:\Users\nozer\final project\main.asm
+           resumeMainLoop   0x000258    program     static C:\Users\nozer\final project\main.asm
+                 sendchar   0x000034    program     static C:\Users\nozer\final project\main.asm
+                solveMaze   0x000223    program     static C:\Users\nozer\final project\main.asm
+                 threeone   0x0000f8    program     static C:\Users\nozer\final project\main.asm
+                 twothree   0x0000ed    program     static C:\Users\nozer\final project\main.asm
+                updatePos   0x00025f    program     static C:\Users\nozer\final project\main.asm
+                  welcome   0x000053    program     static C:\Users\nozer\final project\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     main   0x000006    program     static C:\Users\nozer\final project\main.asm
+               initialize   0x000018    program     static C:\Users\nozer\final project\main.asm
+                 sendchar   0x000034    program     static C:\Users\nozer\final project\main.asm
+               movecursor   0x000045    program     static C:\Users\nozer\final project\main.asm
+                  welcome   0x000053    program     static C:\Users\nozer\final project\main.asm
+               choosemode   0x000077    program     static C:\Users\nozer\final project\main.asm
+                   rbints   0x0000b4    program     static C:\Users\nozer\final project\main.asm
+           modeSelectInts   0x0000be    program     static C:\Users\nozer\final project\main.asm
+          modeDefaultInts   0x0000c3    program     static C:\Users\nozer\final project\main.asm
+             modeMazeInts   0x0000c7    program     static C:\Users\nozer\final project\main.asm
+        placeObstacleMode   0x0000c8    program     static C:\Users\nozer\final project\main.asm
+               newLinePos   0x0000cd    program     static C:\Users\nozer\final project\main.asm
+       moveCursorObstacle   0x0000d0    program     static C:\Users\nozer\final project\main.asm
+            placeObstacle   0x0000d8    program     static C:\Users\nozer\final project\main.asm
+              movepointer   0x0000db    program     static C:\Users\nozer\final project\main.asm
+                   finish   0x0000e1    program     static C:\Users\nozer\final project\main.asm
+                   onetwo   0x0000e2    program     static C:\Users\nozer\final project\main.asm
+                 twothree   0x0000ed    program     static C:\Users\nozer\final project\main.asm
+                 threeone   0x0000f8    program     static C:\Users\nozer\final project\main.asm
+              confirmmode   0x000103    program     static C:\Users\nozer\final project\main.asm
+             obstacleMode   0x00010c    program     static C:\Users\nozer\final project\main.asm
+                 mazeMode   0x00016b    program     static C:\Users\nozer\final project\main.asm
+            definitialize   0x0001c9    program     static C:\Users\nozer\final project\main.asm
+                solveMaze   0x000223    program     static C:\Users\nozer\final project\main.asm
+                 mazeLoop   0x000240    program     static C:\Users\nozer\final project\main.asm
+               resumeLoop   0x000247    program     static C:\Users\nozer\final project\main.asm
+                 mainLoop   0x000252    program     static C:\Users\nozer\final project\main.asm
+           resumeMainLoop   0x000258    program     static C:\Users\nozer\final project\main.asm
+                updatePos   0x00025f    program     static C:\Users\nozer\final project\main.asm
+                pathFound   0x000267    program     static C:\Users\nozer\final project\main.asm
+            checkBotRight   0x000268    program     static C:\Users\nozer\final project\main.asm
+                   goLeft   0x00026d    program     static C:\Users\nozer\final project\main.asm
+             mazeLoopIter   0x00026e    program     static C:\Users\nozer\final project\main.asm
+               indAddress   0x000274    program     static C:\Users\nozer\final project\main.asm
+                   delay1   0x000279    program     static C:\Users\nozer\final project\main.asm
+                    loop1   0x00027e    program     static C:\Users\nozer\final project\main.asm
+                       ET   0x000285    program     static C:\Users\nozer\final project\main.asm
+                    DELAY   0x00028a    program     static C:\Users\nozer\final project\main.asm
+                     LOOP   0x00028e    program     static C:\Users\nozer\final project\main.asm
+                    LOOP2   0x000293    program     static C:\Users\nozer\final project\main.asm
+
+
